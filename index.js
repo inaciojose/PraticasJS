@@ -11,7 +11,7 @@ if (!isNaN(sum)) {
         alert("Os números são diferentes")
     }
 
-    if (sum % 2) {
+    if (sum % 2 == 0) {
         alert("A soma dos números é " + sum + ", e é par.");     
     } else {
         alert("A soma dos números é " + sum + ", e é ímpar.");
